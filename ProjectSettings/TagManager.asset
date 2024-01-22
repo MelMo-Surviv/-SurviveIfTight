@@ -4,7 +4,6 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Zemin
   - Karakter
   layers:
   - Default
@@ -13,7 +12,6 @@ TagManager:
   - 
   - Water
   - UI
-  - Ground
   - 
   - 
   - 
@@ -28,8 +26,9 @@ TagManager:
   - 
   - 
   - 
-  - 
-  - 
+  - Layer 1
+  - Layer 2
+  - Layer 3
   - 
   - 
   - 
@@ -43,12 +42,27 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: arkaplan
-    uniqueID: 2221040069
+  - name: Layer 1
+    uniqueID: 2425651459
     locked: 0
-  - name: "\xF6n\xFC1"
-    uniqueID: 3881121861
+  - name: Layer 2
+    uniqueID: 4250941897
     locked: 0
-  - name: "\xF6n\xFC2"
-    uniqueID: 392339649
+  - name: Layer 3
+    uniqueID: 4189426099
+    locked: 0
+  - name: layer 4
+    uniqueID: 167298993
+    locked: 0
+  - name: layer5
+    uniqueID: 3548782733
+    locked: 0
+  - name: New Layer 6
+    uniqueID: 1591573801
+    locked: 0
+  - name: New Layer 7
+    uniqueID: 2427375425
+    locked: 0
+  - name: Karakter
+    uniqueID: 3673146045
     locked: 0
