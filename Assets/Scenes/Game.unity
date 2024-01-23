@@ -6335,6 +6335,8 @@ Transform:
   - {fileID: 14739698}
   - {fileID: 945688049}
   - {fileID: 382289814}
+  - {fileID: 1448744797}
+  - {fileID: 1793299874}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &621422682
@@ -10940,6 +10942,54 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+--- !u!1 &1448744796
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1448744797}
+  - component: {fileID: 1448744798}
+  m_Layer: 0
+  m_Name: DusmanSpawner (5)
+  m_TagString: Untagged
+  m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1448744797
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1448744796}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -9.47, y: 14.09, z: -0.22122118}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 619142198}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1448744798
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1448744796}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41d1cc5c7537df64daed82a02f4a4ba2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objeler:
+  - {fileID: 4546953834461353446, guid: 31c9ab0e7723df849a4406b340718608, type: 3}
+  - {fileID: 9183465691290619903, guid: ac949642be99a1444a47dcc5a6db3c5c, type: 3}
+  spawnPozisyonu: {fileID: 1448744797}
 --- !u!1001 &1454194117
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12626,6 +12676,54 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1785553712}
   m_CullTransparentMesh: 1
+--- !u!1 &1793299873
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1793299874}
+  - component: {fileID: 1793299875}
+  m_Layer: 0
+  m_Name: DusmanSpawner (6)
+  m_TagString: Untagged
+  m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1793299874
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1793299873}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 7.47, y: 13.7, z: -0.22122118}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 619142198}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1793299875
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1793299873}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41d1cc5c7537df64daed82a02f4a4ba2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objeler:
+  - {fileID: 4546953834461353446, guid: 31c9ab0e7723df849a4406b340718608, type: 3}
+  - {fileID: 9183465691290619903, guid: ac949642be99a1444a47dcc5a6db3c5c, type: 3}
+  spawnPozisyonu: {fileID: 1793299874}
 --- !u!1 &1808575555
 GameObject:
   m_ObjectHideFlags: 0

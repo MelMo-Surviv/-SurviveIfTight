@@ -1,3 +1,4 @@
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class SpawnerDusman : MonoBehaviour
@@ -27,15 +28,10 @@ public class SpawnerDusman : MonoBehaviour
             timer = 0;
         }
 
-        if(DusmanSpawnSüresi == 10)
-        {
-
-        }
-        else if(waveTimer > 60)
+        if(waveTimer > 60 && DusmanSpawnSüresi >= 10)
         {
             DusmanSpawnSüresi -= 1;
             waveTimer = 0;
-            Debug.Log("Dusman Spawn Süresi: "+DusmanSpawnSüresi);
         }
         
     }
